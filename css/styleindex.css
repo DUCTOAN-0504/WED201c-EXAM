@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.all {
+  margin: 2px;
+  outline: 2px solid aqua;
+}
+.footer {
+  background-color: rgb(43, 136, 244);
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.footer p {
+  color: white;
+  line-height: 2;
+  text-align: center;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 3px double grey;
+}
+.header .header-img {
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.header .header-img a img {
+  width: 100%;
+}
+.header .content {
+  margin-right: 100px;
+}
+.header .content ul {
+  display: flex;
+  list-style: none;
+}
+.header .content ul li {
+  padding: 20px;
+}
+.header .content ul li a {
+  color: rgb(19, 176, 239);
+  text-decoration: none;
+}
+.best-seller {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+.best-seller h1 {
+  text-align: center;
+  color: red;
+  margin-bottom: 25px;
+  flex-basis: 100%;
+}
+.best-seller .img1 {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  border: 2px solid #999;
+  padding: 10px;
+  box-shadow: 2px;
+  border-radius: 3px;
+}
+.best-seller .img1 img {
+  padding-bottom: 10px;
+}
+.best-seller .img2 {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  border: 2px solid #999;
+  padding: 10px;
+  box-shadow: 2px;
+  border-radius: 2px;
+}
+.macbook {
+  width: 30%;
+  border: 2px solid #999;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.macbook h2 {
+  color: rgb(19, 176, 239);
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.macbook p {
+  margin-bottom: 20px;
+  line-height: 2;
+  margin-left: 20px;
+}
+.form-choice {
+  display: grid;
+  grid-template-columns: 100px 200px;
+  padding: 10px;
+  margin-left: 30px;
+  align-items: center;
+}
+.form-choice input {
+  width: 200px;
+  height: 30px;
+}
+.type {
+  margin-left: 30px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+input {
+  border: 2px solid #999;
+}
+#lable {
+  margin-right: 70px;
+}
+#input2 {
+  margin-left: 10px;
+}
+.button a {
+  text-decoration: none;
+  color: white;
+}
+.button {
+  margin-left: 150px;
+}
+.but {
+  display: flex;
+  justify-content: center;
+}
+.button,
+.submit {
+  margin-top: 10px;
+  padding: 10px;
+  color: white;
+  background-color: rgb(255, 94, 0);
+  border: 2px solid rgb(255, 94, 0);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.button {
+  margin-left: 40px;
+  margin-right: 5px;
+}
+.submit {
+  margin-right: 40px;
+}
+.app-eco {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+.app-eco h1 {
+  flex-basis: 100%;
+  margin-bottom: 25px;
+  text-align: center;
+  color: red;
+}
+.infor h3 {
+  margin-top: 20px;
+  margin-bottom: 25px;
+
+  color: rgb(19, 176, 239);
+  text-align: center;
+}
+.infor {
+  border: 2px solid #999;
+  margin: 10px 9px;
+  border-radius: 3px;
+}
+.infor .but {
+  margin-top: 40px;
+  background-color: rgb(255, 145, 0);
+  height: 40px;
+}
+.infor .but button {
+  background-color: rgb(255, 145, 0);
+  color: white;
+  cursor: pointer;
+  border: 2px solid rgb(255, 145, 0);
+}
+.service {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.service h2 {
+  flex-basis: 100%;
+  color: red;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.service .img {
+  width: 43%;
+  margin-left: 20px;
+  margin-right: 60px;
+}
+.service .img img {
+  width: 100%;
+}
+.service .list {
+  line-height: 3;
+  color: rgb(0, 174, 255);
+  font-size: 20px;
+}
+.service .list li {
+  list-style: circle;
+}
